@@ -13,6 +13,18 @@ $color = "red";
 echo "My house is $color.<br>";
 echo "My house is $COLOR.<br>";
 echo "My house is $CoLoR.<br>";
+
+$a = false;
+$b = 0;
+if ($a === $b)
+{
+    echo "Yessss!";
+}
+
+// Check integer overflow
+$number = -214748390000000000000000;
+var_dump($number);
+
 ?>
 </body>
 </html>
